@@ -1,6 +1,6 @@
 # Exercise 1: Implement JSON-Form Widget Open Handler
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/TypeFox/theia-workshop/tree/exercise-1)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/StevenAerts/theia-workshop/tree/exercise-1)
 
 Your first exercise is to implement for which file the JSON-Form widget should be opened, and when it should be used as a primary widget.
 Right now, it can be opened for any file, and an editor widget has a priority over it.
