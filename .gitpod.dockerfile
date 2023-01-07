@@ -9,7 +9,7 @@ USER gitpod
 RUN bash -c ". .nvm/nvm.sh \
     && nvm install 10 \
     && nvm use 10 \
-    && nvm delete 16 \
+    && nvm uninstall 16 \
     && npm install -g yarn"
 
 # Give back control
