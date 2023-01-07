@@ -1,6 +1,6 @@
 # Exercise 2: Improve Greeting React Component
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/TypeFox/theia-workshop/tree/exercise-2)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/StevenAerts/theia-workshop/tree/exercise-2)
 
 By now, you should get the basic knowledge of React, and it is time to apply them!
 
