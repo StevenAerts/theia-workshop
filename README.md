@@ -1,6 +1,6 @@
 # Exercise 0: Build Theia Application
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/TypeFox/theia-workshop/tree/exercise-0)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/StevenAerts/theia-workshop/tree/exercise-0)
 
 It is the warm-up exercise to get your familiar with the project structure and how to build and run it.
 
