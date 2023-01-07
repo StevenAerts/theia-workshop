@@ -1,0 +1,92 @@
+{
+  "title": "Address list",
+  "type": "object",
+  "required": [
+    "title"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Address list title"
+    },
+    "addresses": {
+      "type": "array",
+      "title": "Addresses",
+      "items": {
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "description": "A sample title"
+          },
+          "street": {
+            "type": "string",
+            "title": "Street",
+            "description": "Enter the task details"
+          },
+          "date": {
+            "type": "string",
+            "title": "Date",
+            "description": "Enter a date"
+          },
+          "dateTime": {
+            "type": "string",
+            "title": "Date & time",
+            "description": "Enter a date & time"
+          },
+          "color": {
+            "type": "string",
+            "title": "Color",
+            "description": "Choose a color"
+          },
+          "password": {
+            "type": "string",
+            "title": "Password",
+            "description": "Enter a password"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email",
+            "description": "Enter an e-mail address"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url",
+            "description": "Enter a url address"
+          },
+          "choose": {
+            "type": "string",
+            "enum": ["one", "two", "three"]
+          },
+          "multipleChoice": {
+            "type": "array",
+            "title": "A multiple-choice list",
+            "items": {
+                "type": "string",
+                "enum": ["foo", "bar", "fuzz", "qux"]
+            },
+            "uniqueItems": true              
+          },
+          "checkboxes": {
+            "type": "array",
+            "title": "A multiple-choice list",
+            "items": {
+                "type": "string",
+                "enum": ["foo", "bar", "fuzz", "qux"]
+            },
+            "uniqueItems": true              
+          },
+          "done": {
+            "type": "boolean",
+            "title": "Done?",
+            "default": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "addresses": {
+    "items": {
+      "street": {
+        "ui:widget": "textarea"
+      },
+      "date": {
+        "ui:widget": "date"
+      },
+      "dateTime": {
+        "ui:widget": "date-time"
+      },
+      "password": {
+        "ui:widget": "password"
+      },
+      "email": {
+        "ui:widget": "email"
+      },
+      "url": {
+        "ui:widget": "uri"
+      },
+      "color": {
+        "ui:widget": "color"
+      },
+      "checkboxes": {
+        "ui:widget": "checkboxes",
+         "ui:options": {
+            "inline": true
+        }
+      }
+
+    }
+  }
+}

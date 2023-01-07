@@ -1,16 +1,23 @@
 {
-  "title": "Theia Workshop - Exercises",
-  "tasks": [
+  "title": "Meidoornlaan 21",
+  "addresses": [
     {
       "title": "Exercise-0: Build Theia Application",
       "done": true,
       "details": "In this exercise, you learn:\n- the structure of a Theia extension project;\n- how to create Theia application, build and run it;\n- how to configure Theia extension with the dependency injection.",
-      "person": "Someone "
+      "dateTime": "2023-01-07T22:33:00.000Z",
+      "color": "#ed1d1d",
+      "date": "2023-01-25",
+      "street": "Somestreet 1, someplace",
+      "password": "qsQSQsQS",
+      "email": "qsd@qSQs.com"
     },
     {
       "title": "Exercise-1: Implement Open Handler",
       "done": true,
-      "details": "In this exercise, you learn how to add a new widget to the shell and get familiar with widget's lifecycle."
+      "details": "In this exercise, you learn how to add a new widget to the shell and get familiar with widget's lifecycle.",
+      "url": "qsqsS",
+      "email": "SQS"
     },
     {
       "done": true,
@@ -23,6 +30,6 @@
       "details": "In this exercise, you learn how to access file models and connect them with widgets."
     }
   ],
-  "$schema": "nested-schema.json",
-  "$uiSchema": "nested-ui-schema.json"
+  "$schema": "addresses-schema.json",
+  "$uiSchema": "addresses-ui-schema.json"
 }

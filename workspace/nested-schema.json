@@ -28,6 +28,11 @@
             "title": "Task details",
             "description": "Enter the task details"
           },
+          "person": {
+            "type": "string",
+            "title": "Assigned to",
+            "description": "Enter the person to whom the task is assigned"
+          },
           "done": {
             "type": "boolean",
             "title": "Done?",
